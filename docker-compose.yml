@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - TELEGRAM_BOT_TOKEN=7677727196:AAHKr0j9ap_miYtRW8ds3IpStxJh5P10IJY
+      - TELEGRAM_CHAT_ID=1127288164
+      - NODE_ENV=production
+    volumes:
+      - ./public:/app/public
