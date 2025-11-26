@@ -1,7 +1,7 @@
 import { type NextRequest, NextResponse } from "next/server"
 
 const TELEGRAM_BOT_TOKEN = "7677727196:AAHKr0j9ap_miYtRW8ds3IpStxJh5P10IJY"
-const TELEGRAM_CHAT_ID = "-1005045396128"
+const TELEGRAM_CHAT_ID = "-5045396128"
 
 interface ContactFormData {
   question: string
